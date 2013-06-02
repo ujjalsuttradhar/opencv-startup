@@ -23,10 +23,10 @@ int main()
   {
       imshow("WEbcam",img);
 
-      key=cvWaitKey(10);
+      key=cvWaitKey(10);  //wait   upto10 sec for next key stroke
 
       if(key==27)
-         break;
+         break;   // if user press escape (ESC) key then video capturing stops and last frame will be saved.
   }
 
   /*saving image*/
