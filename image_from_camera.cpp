@@ -1,7 +1,7 @@
 /**
  *This code takes continuous images by the default camera.When someone press ESC key,
  *then the image is saved and re-displayed
- *@autho Ujjal Suttra Dhar <ujjalsuttradhar@gmail.com>
+ *@author Ujjal Suttra Dhar <ujjalsuttradhar@gmail.com>
 */
 
 #include "opencv2/opencv.hpp"
